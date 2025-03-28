@@ -1,0 +1,6 @@
+streamlit
+transformers
+torch
+ultralytics
+deepface
+opencv-python
