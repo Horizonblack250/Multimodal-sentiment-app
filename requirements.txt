@@ -1,5 +1,7 @@
-streamlit
-transformers==4.36.2
-torch==2.2.1
-ultralytics
-opencv-python-headless
+streamlit==1.28.0
+torch==2.0.1
+transformers==4.33.3
+ultralytics==8.0.196
+pillow==10.0.1
+opencv-python-headless==4.8.0.76
+psutil==5.9.5
