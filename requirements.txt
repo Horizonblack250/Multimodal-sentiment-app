@@ -4,4 +4,4 @@ torch
 ultralytics
 deepface
 opencv-python-headless
-
+keras==2.11.0
