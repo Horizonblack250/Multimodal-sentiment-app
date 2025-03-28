@@ -1,6 +1,6 @@
 streamlit
 transformers
-torch
+torch==2.0.1
 ultralytics
 deepface
 opencv-python-headless
