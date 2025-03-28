@@ -1,4 +1,8 @@
 # requirements.txt
+--upgrade
+--force-reinstall
+
+# Core dependencies
 streamlit==1.28.0
 torch==2.0.1+cpu --index-url https://download.pytorch.org/whl/cpu
 transformers==4.33.3
@@ -8,4 +12,8 @@ opencv-python-headless==4.8.0.76
 psutil==5.9.5
 numpy==1.24.4
 tqdm==4.66.1
-rich==13.7.1  # Slightly older but more stable version
+
+# Explicitly pin conflicting packages
+markdown-it-py==2.2.0  # Slightly older but more stable version
+mdurl==0.1.2
+rich==13.7.0  # Stable version known to work with Streamlit
