@@ -1,8 +1,8 @@
 streamlit
 transformers
-torch==2.0.1
+torch==2.2.1
 ultralytics
 deepface==0.0.79
-tensorflow==2.11.0
-keras==2.11.0
+tensorflow==2.19.0
+tf-keras
 opencv-python-headless
