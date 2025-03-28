@@ -3,4 +3,5 @@ transformers
 torch
 ultralytics
 deepface
-opencv-python
+opencv-python-headless
+
