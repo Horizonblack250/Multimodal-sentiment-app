@@ -1,6 +1,4 @@
---upgrade
---force-reinstall
-
+# requirements.txt
 streamlit==1.28.0
 torch==2.0.1+cpu --index-url https://download.pytorch.org/whl/cpu
 transformers==4.33.3
